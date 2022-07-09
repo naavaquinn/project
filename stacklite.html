@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <title>
+            Stack Overflow
+        </title>
+         
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1">
+         
+        <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+        <style>
+             
+            /* styling navlist */
+            #navlist {
+                background-color: #0074D9;
+                position: absolute;
+                width: 100%;
+            }
+             
+            /* styling navlist anchor element */
+            #navlist a {
+                float:left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            .navlist-right{
+                float:right;
+            }
+     
+            /* hover effect of navlist anchor element */
+            #navlist a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+             
+            /* styling search bar */
+            .search input[type=text]{
+                width:300px;
+                height:25px;
+                border-radius:25px;
+                border: none;
+     
+            }
+             
+            .search{
+                float:right;
+                margin:7px;
+     
+            }
+             
+            .search button{
+                background-color: #0074D9;
+                color: #f2f2f2;
+                float: right;
+                padding: 5px 10px;
+                margin-right: 16px;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+     
+    <body>
+         
+        <!-- Navbar items -->
+        <div id="navlist">
+            <nav id="navbar">
+                <img src="stack.png" >
+            </nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">For Teams</a>
+           
+             
+            <!-- search bar right align -->
+            <div class="search">
+                 
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Frequently asked questions"
+                        name="search">
+                   
+                    <button>
+                        <i class="fa fa-search"
+                            style="font-size: 15px;">
+                       
+                        </i>
+                    </button>
+                </form>
+            </div>
+        </div>
+             
+    <main>
+        <h1 class="question-heading">HOME</h1>
+        <section class="question-container">
+            <div class="Question-one">
+                <!--  question -->
+                <h1 class="question-page">Vpn or proxy server detected over the network in react native expo</h1>
+                <!-- answer -->
+                <div class="body">
+                    <p>What is the way to detecting vpn or proxy over the network in my react native expo app .
+                         When any user enter into my app it will detect that the user is use any vpn or proxy .
+                          How can i solve this ...</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="question-two">
+                <!-- question -->
+                <h1 class="page">What is the use of isNaN function?</h1>
+                <!-- answer -->
+                <div class="body">
+                    <p>isNan function returns true if the argument is not a number; otherwise, it is false.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="question-three">
+                <!--  question -->
+<h1 class="page">Which is faster between JavaScript and an ASP script?</h1>
+                <!-- answer -->
+                <div class="body">
+                    <p>JavaScript is faster. JavaScript is a client-side language,
+                         and thus it does not need the assistance of the webserver to execute. On the other hand, 
+                         ASP is a server-side language and hence is always slower than JavaScript.
+                         Javascript now is also a server-side language (nodejs).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+<footer>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Stack Overflow</h3>
+                        <ul>
+                            <li><a href="#">Questions</a></li>
+                            <li><a href="#">Help</a></li>
+                    
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="#">Teams</a></li>
+                            <li><a href="#">Adverstising</a></li>
+                            <li><a href="#">Collectives</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Work Here</a></li>
+                        </ul>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">StackOverflow © 2022</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</footer>  
+
+</html>
